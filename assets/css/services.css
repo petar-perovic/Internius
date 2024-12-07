@@ -1,0 +1,75 @@
+/*--------------------------------------------------------------
+# services
+--------------------------------------------------------------*/
+.active-services a{
+    color: wheat;
+}
+.projects {
+    /* background: url("../img/projects-bg.jpg") center center; */
+    background-size: cover;
+    position: relative;
+    padding: 60px 0;
+}
+
+.projects .projects-img {
+    position: relative;
+    transition: 0.5s;
+}
+.projects .projects-img img {
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.projects .projects-img::before {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+    content: "";
+    border-left: 5px solid #cda45e;
+    border-top: 5px solid #cda45e;
+    transition: 0.5s;
+}
+.projects .projects-img::after {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    content: "";
+    border-right: 5px solid #cda45e;
+    border-bottom: 5px solid #cda45e;
+    transition: 0.5s;
+}
+
+.projects .projects-img:hover {
+    transform: scale(1.03);
+}
+.projects .projects-img:hover::before {
+    left: 10px;
+    top: 10px;
+}
+.projects .projects-img:hover::after {
+    right: 10px;
+    bottom: 10px;
+}
+.projects .content h3 {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.projects .content p:last-child {
+    margin-bottom: 0;
+}
+.projects .content h3{
+    color: #101E33;
+}
+@media (min-width: 1024px) {
+  .projects {
+    background-attachment: fixed;
+  }
+}
