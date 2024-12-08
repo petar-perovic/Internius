@@ -716,22 +716,17 @@ h6 {
     height: 100%;
     padding: 60px 0;
     position: relative;
-    background: url('../img/Ostalo/pexels-laura-tancredi-7078652.jpg'); 
+    background: url('../img/bc1.jpg'); 
     background-size: cover;
     background-position: center;
 }
 .bc-slide.sl-2{
-    background: url('../img/Ostalo/29989.jpg'); 
+    background: url('../img/bc2.jpg'); 
     background-size: cover;
     background-position: center;
 }
 .bc-slide.sl-3{
-    background: url('../img/Ostalo/2147694723.jpg'); 
-    background-size: cover;
-    background-position: center;
-}
-.bc-slide.mne{
-    background: url('../img/Montenegro/pexels-aleksandar069-8214677.jpg');
+    background: url('../img/bc3.jpg'); 
     background-size: cover;
     background-position: center;
 }
@@ -1287,7 +1282,7 @@ section {
     /* background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(40, 58, 90, 0.8)), url("../img/bc2.jpg") center center; */
     background-size: cover;
     padding: 120px 0;
-    background: linear-gradient(rgba(16, 30, 51, 0.8), rgba(16, 30, 51, 0.8)), url('../img/Ostalo/cta-bg.jpg') fixed center center;
+    background: linear-gradient(rgba(16, 30, 51, 0.8), rgba(16, 30, 51, 0.8)), url('../img/why1.jpg') fixed center center;
 }
 
 .cta h3 {
@@ -1471,7 +1466,7 @@ section {
     margin-bottom: 0;
 }
 
-.projects .col-lg-4:nth-child(1) .member {
+/* .projects .col-lg-4:nth-child(1) .member {
     background-image: url(../img/portfolio/portfolio-1.jpg);
 }
 .projects .col-lg-4:nth-child(2) .member {
@@ -1479,7 +1474,7 @@ section {
 }
 .projects .col-lg-4:nth-child(3) .member {
     background-image: url(../img/portfolio/portfolio-3.jpg);
-}
+} */
 
 .projects .member .pic {
     overflow: hidden;

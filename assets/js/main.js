@@ -151,7 +151,7 @@ $(document).ready(function(){
       dots:true,
       arrows:false,
       autoplay: true,
-      autoplaySpeed: 20000
+      autoplaySpeed: 10000
   });
 });
 
