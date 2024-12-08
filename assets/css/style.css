@@ -287,8 +287,13 @@ h6 {
 }
 
 #header .logo img {
-    /* max-height: 40px; */
-    max-height: 50px;
+    max-height: 40px;
+    /* max-height: 50px; */
+}
+@media screen and (max-width:991px) {
+    #header .logo img {
+        max-height: 30px;
+    }
 }
 #header .bi-list{
     display: none;
