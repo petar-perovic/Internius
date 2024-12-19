@@ -1100,33 +1100,33 @@ section {
 }
 @media screen and (max-width: 991px) {
     .why-us .box {
-     height: 370px;
+     height: 290px;
     }
 }
 @media (max-width: 767px) {
     .why-us .box {
-        height: 415px;
+        height: 323px;
        }
 }
 
 @media (max-width: 575px) {
     .why-us .box {
-        height: 530px;
+        height: 375px;
        }
 }
 @media (max-width: 450px) {
     .why-us .box {
-        height: 600px;
+        height: 420px;
        }
 }
 @media (max-width: 370px) {
     .why-us .box {
-        height: 670px;
+        height: 442px;
        }
 }
 @media (max-width: 330px) {
     .why-us .box {
-        height: 810px;
+        height: 515px;
        }
 }
 
